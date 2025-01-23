@@ -5,9 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User List</title>
+    <link rel="icon" href="/images/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <header class="top-section">
+        <div class="logo">
+          <img src = "/images/Kainos 800x250 Logo (Transparent BG).png" alt="Company Logo" />
+        </div>
+
     <h1>User List</h1>
 
     <% if (users && users.length > 0) { %>
@@ -42,5 +49,7 @@
     <form action="/users/add" method="get">
         <input type="submit" value="Create New User">
     </form> 
+
+    <footer><p class = "f1"> Kainos 4-6 Upper Cres, Belfast BT7 1NT</p></footer>
 </body>
 </html>

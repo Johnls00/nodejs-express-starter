@@ -6,3 +6,41 @@ body {
 a {
   color: #00B7FF;
 }
+
+
+footer{
+  background-color: #283583;
+  color: white;
+  position: relative; 
+  width: 100%;
+  font-family: Galano Grotesque;
+  padding-bottom: 2rem;
+}
+
+.f1{
+  font-size: 2em;
+  padding-top: 5rem;
+  padding-left: 30rem;
+}
+
+.hometitle{
+  font-size: 5em;
+  position: center;
+  padding-left: 35rem;
+  font-family: Galano Grotesque;
+}
+
+.logo{
+  padding-left: 20rem;
+  width: 400px;
+  height: 125px;
+  padding-bottom: 5rem;
+  
+}
+
+.welcome{
+  font-size: 2em;
+  padding-bottom: 10rem;
+  font-family: Galano Grotesque;
+ 
+}
