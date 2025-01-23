@@ -3,6 +3,39 @@
     "id": 1,
     "name": "Shaun",
     "email": "shaun@test.com",
-    "role": "Software Engineer"
+    "role": "Software Engineer",
+    "address": "1234 Main St"
+  }
+
+  ,{
+    "id": 2,
+    "name": "Noble",
+    "email": "Noble@test.com",
+    "role": "Super Senior Software Engineer",
+    "address": "256 Main St"
+  }
+
+  ,{
+    "id": 3,
+    "name": "Abbey",
+    "email": "abbey@test.com",
+    "role": "Software Engineer",
+    "address": "742 Main St"
+  }
+
+  ,{
+    "id": 3,
+    "name": "John",
+    "email": "john@test.com",
+    "role": "Software Engineer",
+    "address": "111 Main St"
+  }
+
+  ,{
+    "id": 4,
+    "name": "Jennifer",
+    "email": "Abbey@test.com",
+    "role": "Software Engineer",
+    "address": "0 Main St"  
   }
 ]
