@@ -65,3 +65,8 @@ a {
 .btn-create:hover {
   background-color: #005f73;
 }
+
+.tbody {
+  background-color: #f2f2f2;
+  
+}
