@@ -5,7 +5,7 @@ var router = express.Router();
 
 // Route to render the login page
 router.get('/', (req, res) => {
-    res.render('login');
+    res.render('login', { error: null });
 });
 
 // Handle login form submission
@@ -28,8 +28,8 @@ router.post('/', (req, res) => {
             // Authentication successful
             res.redirect('/users');
         } else {
-            // Authentication failed
-            res.status(401).send('Invalid email or password');
+            // Authentication failed, render the login page with an error message
+            res.render('login', { error: 'Invalid email or password' });
         }
     });
 });
