@@ -16,6 +16,11 @@
   width: 80%;
 }
 
+.error {
+  color: red;
+  font-weight: bold;
+}
+
 .user-table {
   width: 100%;
   border-collapse: collapse;

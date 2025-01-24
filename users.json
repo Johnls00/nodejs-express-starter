@@ -4,6 +4,7 @@
     "employee number": "12345678",
     "name": "Shaun",
     "email": "shaun@test.com",
+    "password": "password",
     "role": "Software Engineer",
     "address": "1234 Main St",
     "salary": "£50,000"
@@ -13,7 +14,8 @@
     "employee number": "23456789",
     "name": "Noble",
     "email": "Noble@test.com",
-    "role": "Super Senior Software Engineer",
+    "password": "password123",
+    "role": "Software Engineer",
     "address": "256 Main St",
     "salary": "£80,000"
   },
@@ -22,6 +24,7 @@
     "employee number": "34567890",
     "name": "Abbey",
     "email": "abbey@test.com",
+    "password": "password456",
     "role": "Software Engineer",
     "address": "742 Main St",
     "salary": "£55,000"
