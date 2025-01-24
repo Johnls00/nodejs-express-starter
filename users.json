@@ -10,16 +10,6 @@
     "salary": "£50,000"
   },
   {
-    "id": 2,
-    "employee number": "23456789",
-    "name": "Noble",
-    "email": "Noble@test.com",
-    "password": "password123",
-    "role": "Software Engineer",
-    "address": "256 Main St",
-    "salary": "£80,000"
-  },
-  {
     "id": 3,
     "employee number": "34567890",
     "name": "Abbey",
