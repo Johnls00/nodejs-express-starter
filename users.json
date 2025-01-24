@@ -46,5 +46,25 @@
     "role": "Software Engineer",
     "address": "0 Main St",
     "salary": "£58,000"
+  },
+  {
+    "employeeNumber": "5",
+    "name": "Thomas",
+    "email": "Thomas@kainos.com",
+    "password": "thomas",
+    "role": "team lead",
+    "address": "1 road ",
+    "salary": "£30000",
+    "id": 5
+  },
+  {
+    "employeeNumber": "6",
+    "name": "Thomas",
+    "email": "Thomas@kainos.com",
+    "password": "thomas",
+    "role": "team lead",
+    "address": "1 road ",
+    "salary": "£30000",
+    "id": 6
   }
 ]
