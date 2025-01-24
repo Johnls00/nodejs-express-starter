@@ -178,39 +178,62 @@ button.primary.ghost {
 }
 
 
+.f1{
+  font-size: 1em;
+  padding-top: 5rem;
+  padding-left: 30rem;
+}
+
+header{
+  color: white;
+  position: relative; 
+  width: 100%;
+  height: 15%;
+  font-family: Galano Grotesque;
+}
+
+.hometitle{
+  font-size: 3.5em;
+  font-family: Galano Grotesque;
+  align-items: center;
+  color: white;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.Company-Logo{
+  align-self: center;
+  padding-left: 20rem;
+  
+}
+
+.welcome{
+  font-size: 2em;
+  font-family: Galano Grotesque;
+
+}
+
+.main-section{
+  background-color: #f9f9f9;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  width: 100%;
+
+}
+
+.main-section .welcome{
+  font-size: 3em;
+  padding-bottom: 2rem;
+  font-family: Galano Grotesque;
+  color: #283583;
+  height: 60%;
+}
+
 footer{
   background-color: #283583;
   color: white;
   position: relative; 
   width: 100%;
   font-family: Galano Grotesque;
-  padding-bottom: 2rem;
-}
-
-.f1{
-  font-size: 2em;
-  padding-top: 5rem;
-  padding-left: 30rem;
-}
-
-.hometitle{
-  font-size: 5em;
-  position: center;
-  padding-left: 35rem;
-  font-family: Galano Grotesque;
-}
-
-.logo{
-  padding-left: 20rem;
-  width: 400px;
-  height: 125px;
-  padding-bottom: 5rem;
-  
-}
-
-.welcome{
-  font-size: 2em;
-  padding-bottom: 10rem;
-  font-family: Galano Grotesque;
- 
+  margin-top: 0rem;
 }
