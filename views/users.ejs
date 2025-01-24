@@ -1,6 +1,7 @@
 <!-- index.ejs -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +9,20 @@
     <link rel="icon" href="/images/favicon.png" type="image/png">
     <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
+
 <body>
 
-    <header class="top-section">
+    <header class="top-section-users">
         <div class="logo">
-          <img src = "/images/Kainos 800x250 Logo (Transparent BG).png" alt="Company Logo" />
+            <img src="/images/Kainos 800x250 Logo (Transparent BG).png" alt="Company Logo" class="Company-Logo" />
         </div>
+    </header>
 
-    <h1>User List</h1>
 
-        <% if (users && users.length > 0) { %>
+    <container class="user-list-container">
+        <h1>User List</h1>
+
+        <% if (users && users.length> 0) { %>
             <table class="user-table">
                 <thead>
                     <tr>
@@ -28,31 +33,42 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <% users.forEach(user => { %>
+                    <% users.forEach(user=> { %>
                         <tr>
-                            <td><%= user.name %></td>
-                            <td><%= user.email %></td>
-                            <td><%= user.role %></td>
+                            <td>
+                                <%= user.name %>
+                            </td>
+                            <td>
+                                <%= user.email %>
+                            </td>
+                            <td>
+                                <%= user.role %>
+                            </td>
                             <td>
                                 <a class="btn-view" href="/users/<%= user.id %>">View</a>
                                 <a class="btn-edit" href="/users/update/<%= user.id %>">Edit</a>
                                 <a class="btn-delete" href="/users/delete/<%= user.id %>">Delete</a>
                             </td>
                         </tr>
-                    <% }); %>
+                        <% }); %>
                 </tbody>
             </table>
-        <% } else { %>
-            <p>No users found.</p>
-        <% } %>
+            <% } else { %>
+                <p>No users found.</p>
+                <% } %>
 
-        <form action="/users/add" method="get" class="create-user-form">
-            <input type="submit" value="Create New User" class="btn-create">
-        </form>
+                    <form action="/users/add" method="get" class="create-user-form">
+                        <input type="submit" value="Create New User" class="btn-create">
+                    </form>
 
-        <a href="/" class="btn-home">Return to Home</a>
-    </div>
+                    <a href="/" class="btn-home">Return to Home</a>
+                    </div>
+    </container>
 
-    <footer><p class = "f1"> Kainos 4-6 Upper Cres, Belfast BT7 1NT</p></footer>
+
+    <footer>
+        <p class="f1"> Kainos 4-6 Upper Cres, Belfast BT7 1NT</p>
+    </footer>
 </body>
+
 </html>
