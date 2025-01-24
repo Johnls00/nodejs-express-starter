@@ -198,8 +198,6 @@ header{
   font-family: Galano Grotesque;
 }
 
-
-
 .hometitle{
   font-size: 3.5em;
   font-family: Galano Grotesque;
@@ -244,4 +242,12 @@ footer{
   width: 100%;
   font-family: Galano Grotesque;
   margin-top: 0rem;
+}
+
+.addUser-form{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
+  width: 100%;
+  text-align: center;
 }
